@@ -3,16 +3,126 @@
     <h2 class="our-yachts-title">
       Choose your dream yacht and sail away into the sunset
     </h2>
-    <ul class="our-yachts-list">
-      <li class="our-yachts-item">
-        <img
-          src="./img/our-yachts/img-yaht_mob.jpg"
-          alt="Yacht ARROW"
-          width="302px"
-          height="240px"
-          class="img-our-yachts"
-        />
-      </li>
-    </ul>
+    <div class="our-yachts_cards">
+      <ul class="our-yachts-list">
+        <li class="our-yachts-item">
+          <picture>
+            <source
+              srcset="
+                ./img/our-yachts/img-yaht_desk1.jpg    1x,
+                ./img/our-yachts/img-yaht_desk1,2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/our-yachts/img-yaht_tab2,2x.jpg 1x,
+                ./img/our-yachts/img-yaht_tab2.jpg    2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/our-yachts/img-yaht_mob.jpg   1x,
+                ./img/our-yachts/img-yaht_mob2x.jpg 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./img/our-yachts/img-yaht_desk1.jpg"
+              alt="Yacht ARROW"
+              width="345px"
+              height="268px"
+              class="img-our-yachts"
+            />
+          </picture>
+        </li>
+        <li class="our-yachts_item">
+          <div class="title-wrap-our-yachts">
+            <div class="title-arrow-yachts">ARROW</div>
+            <div class="title-luxury-yachts">LUXURY YAHTS</div>
+          </div>
+        </li>
+        <li class="our-yachts_item">
+          <div class="title-wrap-our-yachts">
+            <div class="text-name_item">
+              <p>LENGTH</p>
+              <p>BUILDER</p>
+              <p>BUILT</p>
+              <p>GUESTS</p>
+              <p>PRICE</p>
+            </div>
+            <div class="text_item-our-yachts">
+              <p>48m(155ft)</p>
+              <p>Admiral</p>
+              <p>2021</p>
+              <p>11 in 5 cabins</p>
+              <p>€33,500,000</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="our-yachts-card">
+        <ul class="our-yachts-list">
+          <li class="our-yachts-item">
+            <picture>
+              <source
+                srcset="
+                  ./img/our-yachts/img-yaht_desk1.2.jpg    1x,
+                  ./img/our-yachts/img-yaht_desk1.2,2x.jpg 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  ./img/our-yachts/img-yaht_tab2x.jpg 1x,
+                  ./img/our-yachts/img-yaht_tab1.jpg  2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/our-yachts/img-yaht_mob.jpg   1x,
+                  ./img/our-yachts/img-yaht_mob2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="./img/our-yachts/img-yaht_desk1.2.jpg"
+                alt="Yacht ARROW"
+                width="345px"
+                height="268px"
+                class="img-our-yachts"
+              />
+            </picture>
+          </li>
+          <li class="our-yachts_item">
+            <div class="title-wrap-our-yachts">
+              <div class="title-arrow-yachts">BENETTI OASIS 40M BO122</div>
+              <div class="title-luxury-yachts">LUXURY YAHTS</div>
+            </div>
+          </li>
+          <li class="our-yachts_item">
+            <div class="title-wrap-our-yachts">
+              <div class="text-name_item">
+                <p>LENGTH</p>
+                <p>SHIPYARD</p>
+                <p>BUILT</p>
+                <p>GUESTS</p>
+                <p>PRICE</p>
+              </div>
+              <div class="text_item-our-yachts">
+                <p>41m (133ft)</p>
+                <p>Benetti</p>
+                <p>2025</p>
+                <p>10 in 5 cabins</p>
+                <p>€23,210,000</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button type="button" class="our-yachts_button">Yacht rental</button>
   </div>
 </section>
