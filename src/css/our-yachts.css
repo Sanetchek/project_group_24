@@ -131,6 +131,9 @@ margin-bottom: 32px;
     background-color: #fbfbfb;
     color: #1b414b;
 }
+.our-yachts-cards{
+display: none;
+}
 
 @media screen and (min-width: 768px){
     .our-yachts {
@@ -174,5 +177,48 @@ margin-bottom: 32px;
           margin-top: 50px;
     }
 
+    .our-yachts-cards{
+        display: none;
+    }
 
+
+}
+
+@media screen and (min-width: 1280px){
+    .our-yachts-title {
+         width: 714px;
+    }
+
+        .our-yachts-cards {
+            display: block;
+        }
+
+        .our-yachts_cards {
+            gap: 25px;
+        }
+
+         .our-yachts-list {
+        width: 377px;
+                }
+
+       .img-our-yachts {
+         width: 345px;
+         height: 268px;
+       }
+
+        .title-arrow-yachts{
+            font-size: 16px;
+            line-height: 1.2;
+        }
+         
+        .title-luxury-yachts{
+            font-size: 13px;
+            line-height: 1.18;
+        }
+
+           .our-yachts_item:not(:last-child):after{
+            width: 313px;
+            height: 2px;
+           }
+                   
 }
