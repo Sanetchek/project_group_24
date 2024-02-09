@@ -1,0 +1,115 @@
+.container{
+    max-width: 355px;
+    padding: 0 20px;
+}
+
+.rent-section{
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.form-container{
+margin-bottom: 80px;
+}
+
+.rent-bloc-title{
+    color: #fbfbfb;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        margin-bottom: 40px;
+}
+
+.form-rent-bloc-wrap{
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+    margin-bottom: 40px;
+}
+
+.input-rent-bloc{
+    width: 100%;
+    height: 42px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+        border-radius: 12px;
+        background-color: transparent;
+        padding-left: 18px;
+}
+.comment-rent-bloc{
+    width: 100%;
+        height: 108px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+        border-radius: 12px;
+        background-color: transparent;
+        padding: 8px 16px;
+        resize: none;
+}
+
+.form-button-rent-bloc{
+    text-transform: none;
+    border: none;
+border-radius: 15px;
+    padding: 14px 44px;
+    width: 122px;
+    height: 46px;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        background-color: #1b414b;
+}
+
+.rent-bloc-photo{
+    width: 100%;
+    border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+max-width: 704px;
+padding: 0 32px;
+    }
+.rent-section{
+    padding-top: 75px;
+        padding-bottom: 75px;
+}
+.form-container{
+    width: 473px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.rent-bloc-title{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.form-rent-bloc-wrap{
+    margin-bottom: 50px;
+}
+
+.form-button-rent-bloc{
+font-size: 18px;
+line-height: 1.1;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .container{ 
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+    .change-direction{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 50px;
+    }
+        .form-container{
+            width: 472px;
+            margin: 0;
+        }
+        .picture-wrap{
+            width: 652px;
+        }
+}
