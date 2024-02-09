@@ -31,7 +31,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
-  text-color: #040306;
+  color: #040306;
   opacity: 0.4;
 }
 .about-img {
@@ -42,6 +42,9 @@
   margin: 0 auto;
   border: none;
 }
+.about-picture {
+  width: 100%;
+}
 
 @media screen and (min-width: 768px) {
   .about-title {
@@ -50,14 +53,15 @@
     line-height: 1;
   }
   .about-title-text {
-    width: 389px;
     font-size: 23px;
     line-height: 1;
   }
   .about-text {
-    width: 389px;
     font-size: 13px;
     line-height: 1.15;
+  }
+  .about-container-text {
+    width: 389px;
   }
 }
 
@@ -74,10 +78,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .about-title-text {
-    width: 354px;
-  }
-  .about-text {
+  .about-container-text {
     width: 354px;
   }
   .about-content {
