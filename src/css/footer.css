@@ -12,12 +12,21 @@
 
 .icon-soc-foot {
     fill: #FBFBFB;
+    transition: background-color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-soc-foot:hover,
+.icon-soc-foot:focus {
+    fill: #FBFBFBCC;
 }
 
 .footer-background {
     background-color: #1B414B;
     padding-top: 40px;
     padding-bottom: 40px;
+    border-radius: 24px 24px 0px 0px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .footer-slogan {
@@ -39,7 +48,7 @@
     color: #FBFBFB66;
 }
 
-.first-footer-conteiner {
+.first-footer-section {
     display: flex;
     justify-content: center;
 }
@@ -68,6 +77,13 @@
     border: none;
     justify-content: center;
     align-items: center;
+    transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-footer-sent:hover,
+.button-footer-sent:focus {
+    background-color: #FBFBFB;
+    color: #1B414B;
 }
 
 .footer-soc-icon {
