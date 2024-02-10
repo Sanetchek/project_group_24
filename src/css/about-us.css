@@ -48,6 +48,11 @@
     margin: 0 auto;
 }
 
+.about-picture {
+    position: relative;
+    bottom: -1px;
+}
+
 @media screen and (min-width: 768px) {
     .about-title {
         width: 536px;
