@@ -1,6 +1,6 @@
 .reviews-section {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .reviews-section-title {
@@ -64,7 +64,7 @@ color: rgba(4, 3, 6, 0.4);
 @media screen and (min-width: 768px) {
 .reviews-section {
         padding-top: 75px;
-        padding-bottom: 75px;
+        padding-bottom: 150px;
     }
 
 .reviews-section-title {
