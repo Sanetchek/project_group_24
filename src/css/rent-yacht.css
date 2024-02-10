@@ -12,6 +12,10 @@
     margin-bottom: 40px;
 }
 
+.form-rent-bloc{
+    margin-bottom: 80px;
+}
+
 .form-rent-bloc-wrap {
     display: flex;
     flex-direction: column;
@@ -78,11 +82,23 @@
         padding-bottom: 75px;
     }
 
+    .form-rent-bloc{
+        margin-bottom: 100px;
+    }
+
+        .rent-bloc-title{
+            font-size: 48px;
+            margin-bottom: 50px;
+        }
+
     .form-button-rent-bloc {
         font-size: 18px;
         line-height: 1.1;
         width: 194px;
     }
+        .form-rent-bloc-wrap{
+        margin-bottom: 50px;
+        }
 
     .input-rent-bloc {
         height: 54px;
@@ -119,6 +135,9 @@
         gap: 50px;
     }
 
+    .form-rent-bloc{
+        margin-bottom: 0;
+    }
     .form-container {
         width: 472px;
         margin: 0;
