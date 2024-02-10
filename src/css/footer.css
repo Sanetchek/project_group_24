@@ -1,9 +1,16 @@
 /* ------FOTER--------- */
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
 .conteiner {
     width: 100%;
     max-width: 375px;
     padding: 0 10px;
-    margin: 0 auto;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .footer-name {
