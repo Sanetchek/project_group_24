@@ -1,23 +1,23 @@
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: #0E1823;
-  color: #1B414B;
+    font-family: 'Inter', sans-serif;
+    background-color: #0E1823;
+    color: #1B414B;
 }
 
-
 .container {
-  max-width: 335px;
-  margin: 0 auto;
+    max-width: 335px;
+    margin: 0 auto;
+    width: 95%;
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 704px;
-  }
+    .container {
+        max-width: 704px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1180px;
-  }
+    .container {
+        max-width: 1180px;
+    }
 }
