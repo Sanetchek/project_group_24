@@ -1,4 +1,10 @@
 /* ------FOTER--------- */
+.conteiner {
+    width: 100%;
+    max-width: 375px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
 
 .footer-name {
     font-size: 14px;
@@ -8,6 +14,13 @@
     text-align: left;
     color: #FBFBFB;
     padding-right: 37px;
+}
+
+.foot-icon-link {
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
 }
 
 .icon-soc-foot {
@@ -25,8 +38,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 24px 24px 0px 0px;
-    margin-right: 10px;
-    margin-left: 10px;
+
 }
 
 .footer-slogan {
@@ -98,4 +110,81 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+/* ----------MEDIA------------ */
+
+/* -----------TABLET-------------- */
+
+@media screen and (min-width: 768px) {
+    .conteiner {
+        max-width: 768px;
+    }
+
+    .fot-tablet-list {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 96px;
+    }
+
+    .footer-soc-icon {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 96px;
+    }
+
+    .footer-name {
+        padding-right: 110px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+
+    .button-footer-sent {
+        width: 91px;
+        height: 40px;
+    }
+
+    .footer-slogan {
+        font-size: 32px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-align: center;
+        max-width: 640px;
+        margin-bottom: 99px;
+    }
+
+    .footer-end-text {
+        font-size: 14px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+    }
+
+    .footer-end-item {
+        gap: 32px;
+    }
+
+    .footer-background {
+        padding-top: 50px;
+        padding-bottom: 20px;
+
+    }
+}
+
+/* ----------DESKTOP----------------- */
+@media screen and (min-width: 1280px) {
+    .conteiner {
+        max-width: 1280px;
+    }
+
+    .footer-name {
+        padding-right: 330px;
+    }
+
+    .footer-soc-icon {
+
+        padding-left: 311px;
+    }
 }

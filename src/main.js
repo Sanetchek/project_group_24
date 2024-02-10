@@ -4,11 +4,11 @@ import $ from 'jquery';
 import 'slick-carousel';
 
 document.addEventListener('DOMContentLoaded', function () {
-  $('.slider').slick({
+  $('.our-yachts-list').slick({ // our-yachts-list
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
+    autoplay: false,
+    autoplaySpeed: 3500,
     speed: 1500,
     infinite: true,
     arrows: false,
