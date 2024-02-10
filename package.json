@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
-    "aos": "^2.3.4",
+    "aos": "^3.0.0-beta.6",
     "jquery": "^3.7.1",
     "slick-carousel": "^1.8.1",
     "tiny-slider": "^2.9.4",
