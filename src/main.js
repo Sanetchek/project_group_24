@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   $('.our-yachts-list, .reviews-list').slick({ // our-yachts-list
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3500,
     speed: 1500,
     infinite: true,
