@@ -67,6 +67,7 @@ ol {
 .image-advantages {
     border-radius: 24px;
     margin: 0 auto;
+    max-height: 424px;
 }
 
 @media screen and (min-width: 768px) {
