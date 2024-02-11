@@ -27,59 +27,62 @@
     <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-ff2c5e87.js">
     <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-b37ee52e.css">
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-5196907c.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-fb5f318a.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container header-wrap">
-    <div class="header-container">
-      <a class="logo-header" href="/">yachtjet</a>
-      <nav class="menu-nav-tabl">
-        <ul class="menu-list">
-          <li id="menu_about" class="menu-list-item">
-            <a href="#about" class="menu-list-link">About</a>
-          </li>
-          <li id="menu_yachts" class="menu-list-item">
-            <a href="#yachts" class="menu-list-link">Yachts</a>
-          </li>
-          <li id="menu_review" class="menu-list-item">
-            <a href="#reviews" class="menu-list-link">Reviews</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="menu-social tablet">
-        <ul class="menu-social-list">
-          <li class="menu-social-item">
-            <a href="https://www.instagram.com/goitclub/"
-              >
-              <svg class="menu-social-icon" width="24" height="24">
-                <use href="/vanilla-app-template/assets/sprite-d6c5b097.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="menu-social-item">
-            <a href="https://www.youtube.com/c/GoIT">
-              <svg class="menu-social-icon" width="24" height="24">
-                <use href="/vanilla-app-template/assets/sprite-d6c5b097.svg#icon-youtube"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="menu-social-item">
-            <a href="https://www.facebook.com/goITclub/">
-              <svg class="menu-social-icon" width="24" height="24">
-                <use href="/vanilla-app-template/assets/sprite-d6c5b097.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+    <header id="header">
+  <div class="header">
+    <div class="container header-wrap">
+      <div class="header-container">
+        <a class="logo-header" href="/">yachtjet</a>
+        <nav class="menu-nav-tabl">
+          <ul class="menu-list">
+            <li id="menu_about" class="menu-list-item">
+              <a href="#about" class="menu-list-link">About</a>
+            </li>
+            <li id="menu_yachts" class="menu-list-item">
+              <a href="#yachts" class="menu-list-link">Yachts</a>
+            </li>
+            <li id="menu_review" class="menu-list-item">
+              <a href="#reviews" class="menu-list-link">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu-social tablet">
+          <ul class="menu-social-list">
+            <li class="menu-social-item">
+              <a href="https://www.instagram.com/goitclub/"
+                >
+                <svg class="menu-social-icon" width="24" height="24">
+                  <use href="/vanilla-app-template/assets/sprite-d6c5b097.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-item">
+              <a href="https://www.youtube.com/c/GoIT">
+                <svg class="menu-social-icon" width="24" height="24">
+                  <use href="/vanilla-app-template/assets/sprite-d6c5b097.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-item">
+              <a href="https://www.facebook.com/goITclub/">
+                <svg class="menu-social-icon" width="24" height="24">
+                  <use href="/vanilla-app-template/assets/sprite-d6c5b097.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="open-menu-but">
+          <svg class="burger-icon" width="28" height="28">
+            <use href="/vanilla-app-template/assets/sprite-d6c5b097.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
-      <button type="button" class="open-menu-but">
-        <svg class="burger-icon" width="28" height="28">
-          <use href="/vanilla-app-template/assets/sprite-d6c5b097.svg#icon-burger"></use>
-        </svg>
-      </button>
     </div>
   </div>
+
   <div class="header-menu">
     <div class="container menu-wrap">
       <div class="menu-nav-wrap">
@@ -174,18 +177,22 @@
     </div>
     <picture class="about-picture" data-aos="zoom-in">
       <source
-        srcset="/vanilla-app-template/assets/bout-desk-b5404f33.jpg 1x, /vanilla-app-template/assets/bout-desk-2x-fdab3b69.jpg 2x"
+        srcset="/vanilla-app-template/assets/about-b2b4e8a0.jpg 1x, /vanilla-app-template/assets/about@2x-17a4004b.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/vanilla-app-template/assets/about-desktop-8eeb288b.jpg 1x, /vanilla-app-template/assets/about-desktop@2x-cea010d0.jpg 2x"
         media="(min-width: 1280px)"
       />
       <source
-        srcset="/vanilla-app-template/assets/bout-tablet-dd6a7b97.jpg 1x, /vanilla-app-template/assets/bout-tablet-2x-27a2dd4c.jpg 2x"
+        srcset="/vanilla-app-template/assets/about-tablet-a840060b.jpg 1x, /vanilla-app-template/assets/about-tablet@2x-aa889426.jpg 2x"
         media="(min-width: 768px)"
       />
       <source
-        srcset="/vanilla-app-template/assets/bout-mobile-ada60359.jpg 1x, /vanilla-app-template/assets/bout-mobile-2x-78edad24.jpg 2x"
+        srcset="/vanilla-app-template/assets/about-mobile-83667119.jpg 1x, /vanilla-app-template/assets/about-mobile@2x-aa5e8f25.jpg 2x"
         media="(min-width: 320px)"
       />
-      <img src="/vanilla-app-template/assets/bout-mobile-ada60359.jpg" alt="about" class="about-img" />
+      <img src="/vanilla-app-template/assets/about-b2b4e8a0.jpg" alt="about" class="about-img" width="1340" height="470" />
     </picture>
   </div>
 </section>
@@ -196,10 +203,13 @@
     <h2 class="our-yachts-title" data-aos="fade-up">
       Choose your dream yacht and sail away into the sunset
     </h2>
-    <div class="our-yachts-list">
-      <div class="our-yachts_cards" data-aos="flip-left">
-        <picture
-          ><source
+    <div class="our-yachts-list" data-aos="fade-up">
+      <div class="our-yachts_cards">
+        <picture>
+          <source
+            srcset="/vanilla-app-template/assets/arrow-d25cca3d.jpg 1x, /vanilla-app-template/assets/arrow-d25cca3d.jpg 2x"
+            media="(min-width: 1440px)" />
+          <source
             srcset="/vanilla-app-template/assets/img-yaht_desk1-cbadfb49.jpg 1x, /vanilla-app-template/assets/img-yaht_desk1-2x-bd5f00f3.jpg 2x"
             media="(min-width: 1280px)" />
           <source
@@ -209,9 +219,9 @@
             srcset="/vanilla-app-template/assets/img-yaht_mob-356ca375.jpg 1x, /vanilla-app-template/assets/img-yaht_mob2x-04b0b0e6.jpg 2x"
             media="(max-width: 767px)" />
           <img
-            src="/vanilla-app-template/assets/img-yaht_desk1-cbadfb49.jpg"
+            src="/vanilla-app-template/assets/arrow-d25cca3d.jpg"
             alt="Yacht ARROW"
-            width="345"
+            width="360"
             height="268"
             class="img-our-yachts"
         /></picture>
@@ -236,9 +246,12 @@
           </div>
         </div>
       </div>
-      <div class="our-yachts_cards" data-aos="flip-left" data-aos-delay="300">
-        <picture
-          ><source
+      <div class="our-yachts_cards">
+        <picture>
+          <source
+            srcset="/vanilla-app-template/assets/benetti-e9b6b6f1.jpg 1x, /vanilla-app-template/assets/benetti-e9b6b6f1.jpg 2x"
+            media="(min-width: 1440px)" />
+          <source
             srcset="/vanilla-app-template/assets/img-yaht_desk1-2-30beedab.jpg 1x, /vanilla-app-template/assets/img-yaht_desk1-2-2x-2a4123b4.jpg 2x"
             media="(min-width: 1280px)" />
           <source
@@ -248,9 +261,9 @@
             srcset="/vanilla-app-template/assets/img-yaht_tab2x-c1d2903e.jpg 1x, /vanilla-app-template/assets/img-yaht_tab1-7bbe1550.jpg 2x"
             media="(max-width: 767px)" />
           <img
-            src="/vanilla-app-template/assets/img-yaht_desk1-2-30beedab.jpg"
+            src="/vanilla-app-template/assets/benetti-e9b6b6f1.jpg"
             alt="BENETTI OASIS"
-            width="345"
+            width="360"
             height="268"
             class="img-our-yachts"
         /></picture>
@@ -277,9 +290,12 @@
           </div>
         </div>
       </div>
-      <div class="our-yachts_cards" data-aos="flip-left" data-aos-delay="600">
-        <picture
-          ><source
+      <div class="our-yachts_cards">
+        <picture>
+          <source
+            srcset="/vanilla-app-template/assets/belle-6eb2f369.jpg 1x, /vanilla-app-template/assets/belle-6eb2f369.jpg 2x"
+            media="(min-width: 1440px)" />
+          <source
             srcset="/vanilla-app-template/assets/img-yaht_desk1-3-652b8eaf.jpg 1x, /vanilla-app-template/assets/img-yaht_desk1-3-2x-74f5a277.jpg 2x"
             media="(min-width: 1280px)" />
           <source
@@ -289,9 +305,9 @@
             srcset="/vanilla-app-template/assets/img-yaht_desk1-3-652b8eaf.jpg 1x, /vanilla-app-template/assets/img-yaht_desk1-3-2x-74f5a277.jpg 2x"
             media="(max-width: 767px)" />
           <img
-            src="/vanilla-app-template/assets/img-yaht_desk1-3-652b8eaf.jpg"
+            src="/vanilla-app-template/assets/belle-6eb2f369.jpg"
             alt="BELLE ANNA"
-            width="345"
+            width="360"
             height="268"
             class="img-our-yachts"
         /></picture>
@@ -350,22 +366,34 @@
       </ol>
       <picture data-aos="fade-up">
         <source
-          srcset="/vanilla-app-template/assets/Advantages-93e21cca.jpg 1x, /vanilla-app-template/assets/Advantages_2x-4a2288be.jpg 2x"
+          srcset="
+            ./img/advantages/advantages.jpg    1x,
+            ./img/advantages/advantages@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./img/advantages/advantages-desktop.jpg    1x,
+            ./img/advantages/advantages-desktop@2x.jpg 2x
+          "
           media="(min-width: 1280px)"
         />
         <source
-          srcset="/vanilla-app-template/assets/Advantages-tablet-17870178.jpg 1x, /vanilla-app-template/assets/Advantages-tablet-2x-c176f91d.jpg 2x"
+          srcset="
+            ./img/advantages/advantages-tablet.jpg    1x,
+            ./img/advantages/advantages-tablet@2x.jpg 2x
+          "
           media="(min-width: 768px)"
         />
         <source
-          srcset="/vanilla-app-template/assets/Advantages-93e21cca.jpg 1x, /vanilla-app-template/assets/Advantages_2x-4a2288be.jpg 2x"
+          srcset="/vanilla-app-template/assets/advantages-mobile-4f0a48c1.jpg 1x, /vanilla-app-template/assets/advantages-mobile@2x-10c9d657.jpg 2x"
           media="(max-width: 767px)"
         />
         <img
-          src="/vanilla-app-template/assets/Advantages-93e21cca.jpg"
+          src="./img/advantages/advantages-tablet.jpg"
           alt="Advantages"
           class="image-advantages"
-          width="335"
           height="424"
         />
       </picture>
@@ -415,28 +443,28 @@
       <picture data-aos="fade-right">
         <source
           srcset="
-            ../img/rent-bloc-img-desk.jpg    1x,
-            ../img/rent-bloc-img-desk-2x.jpg 2x
+            ../img/rent/rent-bloc-img-desk.jpg    1x,
+            ../img/rent/rent-bloc-img-desk-2x.jpg 2x
           "
           media="(min-width: 1280px)"
         />
         <source
           srcset="
-            ../img/rent-bloc-img-tab.jpg    1x,
-            ../img/rent-bloc-img-tab-2x.jpg 2x
+            ../img/rent/rent-bloc-img-tab.jpg    1x,
+            ../img/rent/rent-bloc-img-tab-2x.jpg 2x
           "
           media="(min-width: 768px)"
         />
         <source
           srcset="
-            ../img/rent-bloc-img-mob.jpg    1x,
-            ../img/rent-bloc-img-mob-2x.jpg 2x
+            ../img/rent/rent-bloc-img-mob.jpg    1x,
+            ../img/rent/rent-bloc-img-mob-2x.jpg 2x
           "
           media="(max-width: 767px)"
         />
         <img
           class="rent-bloc-photo"
-          src="../img/rent-bloc-img-mob.jpg"
+          src="../img/rent/rent-bloc-img-mob.jpg"
           alt="yacht"
           width="704"
         />
