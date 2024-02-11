@@ -145,3 +145,26 @@
     margin-right: auto;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(17, 19, 31, 0.39),
+        rgba(17, 19, 31, 0)
+      ),
+      url(../img/hero/hero-dt-1440.jpg);
+    min-height: 800px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(17, 19, 31, 0.39),
+          rgba(17, 19, 31, 0)
+        ),
+        url(../img/hero/hero-dt-1440-2x.jpg);
+    }
+  }
+}
