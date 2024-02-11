@@ -5,7 +5,7 @@ import 'slick-carousel';
 
 document.addEventListener('DOMContentLoaded', function () {
   // Slider for Yachts Section
-  $('.our-yachts-list').slick({ // our-yachts-list
+  $('.our-yachts-list, .reviews-list').slick({ // our-yachts-list
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: false,
