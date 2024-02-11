@@ -74,7 +74,6 @@
 
     .reviews-section-title {
         font-size: 48px;
-        width: 854px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -104,6 +103,10 @@
     .reviews-item {
         padding: 32px 28px;
         max-width: 376px;
+    }
+
+    .reviews-section-title {
+        width: 854px;
     }
 }
 
