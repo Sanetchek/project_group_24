@@ -7,7 +7,7 @@
     height: 60px;
     box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.5);
     z-index: 100;
-    /* animation: 0.3s linear header_slidein; */
+    animation: 0.3s linear header_slidein;
 }
 
 .header.fixed .header-wrap {
@@ -183,11 +183,11 @@
 
 @keyframes header_slidein {
     from {
-        top: -80px;
+        transform: translateY(-80px);
     }
 
     to {
-        top: 0;
+        transform: translateY(0);
     }
 }
 
