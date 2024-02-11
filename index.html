@@ -27,7 +27,7 @@
     <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-ff2c5e87.js">
     <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-b37ee52e.css">
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-e2f799aa.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-b8dc1eca.css">
   </head>
   <body>
     <header id="header">
@@ -443,6 +443,13 @@
       <picture data-aos="fade-right">
         <source
           srcset="
+            ../img/rent/rent.jpg    1x,
+            ../img/rent/rent@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
             ../img/rent/rent-bloc-img-desk.jpg    1x,
             ../img/rent/rent-bloc-img-desk-2x.jpg 2x
           "
@@ -545,16 +552,16 @@
   <div class="footer-background conteiner">
     <div class="fot-tablet-list">
       <div class="first-footer-section">
-        <p class="footer-name" data-aos="fade-up">yachtjet</p>
+        <a href="/" class="footer-name" data-aos="fade-up">yachtjet</a>
         <ul class="footer-buttons">
           <li>
-            <button type="submit" class="button-footer-sent" data-aos="fade-up" data-aos-delay="100">ABOUT</button>
+            <a href="#about" class="button-footer-sent" data-aos="fade-up" data-aos-delay="100">ABOUT</a>
           </li>
           <li>
-            <button type="submit" class="button-footer-sent" data-aos="fade-up" data-aos-delay="200">YACHTS</button>
+            <a href="#yachts" class="button-footer-sent" data-aos="fade-up" data-aos-delay="200">YACHTS</a>
           </li>
           <li>
-            <button type="submit" class="button-footer-sent" data-aos="fade-up" data-aos-delay="300">REVIEWS</button>
+            <a href="#reviews" class="button-footer-sent" data-aos="fade-up" data-aos-delay="300">REVIEWS</a>
           </li>
         </ul>
       </div>
