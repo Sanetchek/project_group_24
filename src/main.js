@@ -34,11 +34,13 @@ document.addEventListener('DOMContentLoaded', function () {
   // Open Menu
   $('.open-menu-but').on('click', function () {
     $('.header-menu').fadeIn()
+    // $('body').css('overflow', 'hidden')
   })
 
   // Close Menu
   $('.close-menu-but').on('click', function () {
     $('.header-menu').fadeOut()
+    // $('body').css('overflow', 'unset')
   })
 
   // Show Menu on Scroll
@@ -84,6 +86,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var target = $(this.getAttribute('href'));
     if (target.length) {
       event.preventDefault();
+
+      // $('body').css('overflow', 'unset')
 
       $('.header-menu').fadeOut()
       $('html, body').stop().animate({

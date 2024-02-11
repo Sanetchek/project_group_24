@@ -1,16 +1,21 @@
 .aboutus {
-    padding: 40px 0;
-    width: 100%;
+    position: relative;
+    top: -60px;
+    padding-bottom: 40px;
+}
+
+.aboutus.scroll-to {
+    padding-top: 100px;
+    margin-top: -100px;
 }
 
 .about-container {
-    width: 100%;
     background-color: #fbfbfb;
-    border-radius: 24px;
+    border-radius: 24px 24px 50px 50px;
 }
 
 .about-content {
-    padding: 40px 20px 40px 20px;
+    padding: 40px 20px;
 }
 
 .about-title {
@@ -36,8 +41,7 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
-    color: #040306;
-    opacity: 0.4;
+    color: rgba(4, 3, 6, 0.4);
 }
 
 .about-img {
@@ -54,10 +58,19 @@
 }
 
 @media screen and (min-width: 768px) {
+    .aboutus {
+        top: -65px;
+    }
+
+    .about-content {
+        padding: 50px 32px;
+    }
+
     .about-title {
         width: 536px;
         font-size: 48px;
         line-height: 1;
+        margin-bottom: 50px;
     }
 
     .about-title-text {
@@ -76,6 +89,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .aboutus {
+        top: -35px;
+    }
+
     .about-content {
         display: flex;
         gap: 189px;

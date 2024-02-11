@@ -65,9 +65,6 @@ ol {
 }
 
 .image-advantages {
-    display: block;
-    width: 100%;
-    height: auto;
     border-radius: 24px;
     margin: 0 auto;
 }
@@ -95,8 +92,6 @@ ol {
 }
 
 @media screen and (min-width: 1280px) {
-
-
     .advantages-list-img {
         display: flex;
         align-items: center;
@@ -112,5 +107,12 @@ ol {
 
     .advantages-item {
         width: calc((100% - 44px) / 2);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .advantages-list {
+        gap: 44px 32px;
+        width: 768px;
     }
 }
