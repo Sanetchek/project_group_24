@@ -10,6 +10,7 @@
             name="user-name"
             id="user-name"
             placeholder="Full Name"
+            required
           />
           <input
             class="input-rent-bloc"
@@ -17,6 +18,7 @@
             name="user-email"
             id="user-email"
             placeholder="Email"
+            required
           />
           <input
             class="input-rent-bloc"
@@ -24,12 +26,14 @@
             name="user-phone"
             id="user-phone"
             placeholder="Phone number"
+            required
           />
           <textarea
             class="comment-rent-bloc"
             name="user-comment"
             id="user-comment"
             placeholder="Comment"
+            required
           ></textarea>
         </div>
         <button type="submit" class="form-button-rent-bloc">Send</button>
@@ -38,10 +42,7 @@
     <div class="picture-wrap">
       <picture data-aos="fade-right">
         <source
-          srcset="
-            ./img/rent/rent.jpg    1x,
-            ./img/rent/rent@2x.jpg 2x
-          "
+          srcset="./img/rent/rent.jpg 1x, ./img/rent/rent@2x.jpg 2x"
           media="(min-width: 1440px)"
         />
         <source

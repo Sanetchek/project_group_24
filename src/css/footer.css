@@ -170,7 +170,7 @@
     }
 
     .footer-name {
-        padding-right: 106px;
+        margin-right: 106px;
         font-size: 20px;
     }
 
@@ -212,7 +212,7 @@
     }
 
     .footer-name {
-        padding-right: 330px;
+        margin-right: 330px;
     }
 
     .footer-slogan {
@@ -226,6 +226,6 @@
     }
 
     .footer-name {
-        padding-right: 409px;
+        margin-right: 409px;
     }
 }
