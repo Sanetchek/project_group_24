@@ -45,6 +45,7 @@
 .reviews-img {
     margin: 0 auto;
     margin-bottom: 24px;
+    border-radius: 50%;
 }
 
 .reviews-subtitle {
