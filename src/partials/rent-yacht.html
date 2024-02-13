@@ -10,6 +10,8 @@
             name="user-name"
             id="user-name"
             placeholder="Full Name"
+            pattern="\w{3,16}"
+            title="3 to 16 letters"
             required
           />
           <input
@@ -18,6 +20,8 @@
             name="user-email"
             id="user-email"
             placeholder="Email"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+            title="Example: info@mail.com"
             required
           />
           <input
@@ -26,6 +30,8 @@
             name="user-phone"
             id="user-phone"
             placeholder="Phone number"
+            pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12"
+            title="Example: 067 555 6677"
             required
           />
           <textarea
