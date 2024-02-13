@@ -55,7 +55,7 @@
 .is-open {
     visibility: visible;
     opacity: 1;
-    pointer-events: auto;
+    pointer-events: initial;
 }
 
 .header-menu {
